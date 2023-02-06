@@ -1,0 +1,30 @@
+.sewa-mobil{
+        background-color: #0D28A6;
+        padding: 64px !important;
+        border-radius: 6px
+}
+.sewa-mobil h2{
+    padding-bottom: 16px;
+    margin-bottom: 0px;
+}
+.sewa-mobil p {
+    padding-bottom: 30px;
+    margin: auto !important;
+}
+.sewa-mobil button {
+    background-color: #5CB85F;
+    border-radius: 0px;
+}
+.sewa-mobil button:hover{
+    background-color: #5CB85F;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px)   {
+    .sewa-mobil p {
+        width: 100% !important;
+    }
+    .sewa-mobil{
+        padding: 40px !important;
+    }
+}

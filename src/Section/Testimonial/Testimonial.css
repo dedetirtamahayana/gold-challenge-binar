@@ -1,0 +1,70 @@
+.section-slider{
+    padding: 50px 0;
+    overflow: hidden;
+}
+.testimonial-row h2 {
+    text-align: center;
+    padding-bottom: 16px;
+    margin: 0px;
+}
+.testimonial-row p{
+    padding-bottom: 40px;
+    margin: 0px;
+    text-align: center;
+}
+.slider-row{
+    padding: 50px 32px;
+    margin: 0px 16px;
+    border-radius: 8px;
+    background: #F1F3FF;
+}
+.img-col{
+    padding: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.btn-left,
+.btn-right{
+    background-color: #fff;
+    padding: 0 8px 6px 8px;
+    border: solid 2px #C4C4C4;
+}
+.btn-left:hover,
+.btn-right:hover{
+    background-color: #5CB85F;
+    border-color: #5CB85F;
+    color: #fff;
+}
+
+.btn-slider{
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px)   {
+    .slider-row.border.d-flex {
+        display: block !important;
+        width: 350px !important;
+        margin: 0 auto;
+    }
+    .slick-track{
+        display: flex !important;
+        justify-content: center !important;
+        height: 474px;
+    }
+    .card{
+        margin: 10px 0;
+    }
+    .slick-slide img {
+        margin: auto;
+    }
+    .img-col{
+        padding: 12px 0;
+    }
+    .text-slider {
+        width: 100%;
+    }
+}

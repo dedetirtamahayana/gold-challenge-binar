@@ -1,0 +1,40 @@
+.section-bestcar{
+    padding: 104px 0;
+}
+.image-bestcar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.row-bestcar-2 h2{
+    padding-bottom: 24px;
+    margin: 0px;
+}
+.row-bestcar-2 p{
+    margin: 0px;
+    padding-bottom: 16px;
+}
+.row-bestcar-2 ul{
+    padding: 0px;
+}
+.row-bestcar-2 li{
+    position: relative;
+    list-style: none;
+}
+.row-bestcar-2 li::before{
+    content: url('D:\Challenge Binar\challenge-binar\public\asset\images\centang.png');
+    width: 30px;
+    display: inline-block;
+    height: 33px;
+    top: 6px;
+    margin-right: 5px;
+    position: relative;
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)  { 
+.section-bestcar{
+        padding: 20px;
+    }
+}

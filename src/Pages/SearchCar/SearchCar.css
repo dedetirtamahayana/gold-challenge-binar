@@ -1,0 +1,37 @@
+.row-search-car{
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    bottom: 55px;
+}
+.input-car{
+    width: 100%;
+    padding: 0 10px;
+ 
+}
+.form-btn{
+    margin: auto;
+    padding: 12px 0 0;
+}
+button.btn-car{
+    background-color: #5CB85F !important;
+    color: #fff !important;
+    border-radius: 2px !important;
+}
+.input-car .form-control,
+.input-car .form-select{
+    border-radius: 2px;
+} 
+.card{
+    margin: 10px;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px)   {
+    .row-search-car{
+        bottom: 0px;
+        margin-top: 30px;
+    }
+  }
+

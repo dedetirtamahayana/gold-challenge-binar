@@ -1,0 +1,13 @@
+.footer-icon{
+    width: auto;
+    padding: 0px 8px;
+}
+.footer-icon:nth-child(1) {
+    padding-left: 0px;
+}
+.footer-icon:nth-child(5) {
+    padding-right: 0px;
+}
+.row-footer{
+    margin-top: 100px;
+}

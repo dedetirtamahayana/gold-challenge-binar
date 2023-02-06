@@ -1,0 +1,24 @@
+.row-car-detail{
+    margin: 30px auto;
+}
+.detail-rent{
+    padding: 24px;
+}
+.detail-car-image{
+    width: 60%;
+    padding: 28px 0;
+    margin: auto;
+}
+.detail-text,
+.detail-price{
+    padding: 0px 24px;
+}
+ul .detail-ul{
+    margin-bottom: 16px;
+}
+ul.detail-ul li{
+    color: #8A8A8A;
+}
+li::marker {
+    color: #8A8A8A;
+  } 
